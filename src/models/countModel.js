@@ -1,7 +1,6 @@
 import { mongoose } from "../";
 
 const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
 
 const CountSchema = new Schema({
   count: Number,
