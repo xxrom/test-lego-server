@@ -8,6 +8,6 @@ const CountSchema = new Schema({
   time: [String]
 });
 const Count = mongoose.model("Count", CountSchema);
-console.log(`count ${Count.count}`);
+console.log(`count ${Count ? Count.count : "UNDEFINED!!!"}`);
 
 export { Count };
