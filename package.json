@@ -5,7 +5,9 @@
   "author": "Chernyshov_Nikita <xpom5566@mail.ru>",
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env PORT=3333 backpack"
+    "dev": "cross-env PORT=3333 backpack",
+    "build": "cross-env PORT=3333 backpack build",
+    "start": "cross-env PORT=3333 && node ./build/main.js"
   },
   "dependencies": {
     "backpack-core": "^0.8.4",
