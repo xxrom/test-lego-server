@@ -20,7 +20,7 @@ mongoose.connect(
 const db = mongoose.connection;
 db.on("err", err => console.error("connection error:", err));
 db.once("open", () => {
-  console.log(`we're connected!`);
+  console.log(`CONNECTED: We're connected!`);
 
   // const countInit = 999;
   // Create user
