@@ -1,0 +1,17 @@
+{
+  "name": "test-lego-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chernyshov_Nikita <xpom5566@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env PORT=3333 backpack"
+  },
+  "dependencies": {
+    "backpack-core": "^0.8.4",
+    "cross-env": "^7.0.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "morgan": "^1.9.1"
+  }
+}
